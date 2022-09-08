@@ -1,16 +1,13 @@
-# This is a sample Python script.
+import requests
+from bs4 import BeautifulSoup
+from selenium import webdriver
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+driver = webdriver.Chrome()
+url = 'https://www.youtube.com/user/krishnaik06/videos'
+driver.get('{}'.format(url))
+content = driver.page_source.encode('utf-8').strip()
+soup = BeautifulSoup(content, 'lxml')
+results = soup.find("a",class_='video-title')
+for title in results[:]:
+    print('\n{}\t{}\t{}\thttps://www.youtube.com{}'.format(title.text))
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
