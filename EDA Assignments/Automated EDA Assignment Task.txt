@@ -1,0 +1,13 @@
+Popular Automated Tools for Exploratory Data Analysis (EDA) 
+
+Reference:
+https://builtin.com/data-science/EDA-python
+https://www.analyticsvidhya.com/blog/2021/04/top-python-libraries-to-automate-exploratory-data-analysis-in-2021/
+
+DataPrep
+Pandas Profiling
+SweetViz
+AutoViz
+dtale
+
+EDA in just one line of code.
