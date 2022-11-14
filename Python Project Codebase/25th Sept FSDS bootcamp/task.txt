@@ -1,20 +1,3 @@
-10 dataset
-
-pick anyone
-
-perform detail EDA in one ipynb
-perform missing value handle if it is there in one ipynb all the method(10-12)
-perform outlier handle if it is there in one ipynb all the method(10-12)
-perform encoding  if it is required in one ipynb all the method(10-12)
-perform scaling one ipynb all the method(10-12)
-perform feature selection in one ipynb all the method(10-12)
-perform transformation one ipynb all the method(10-12)
-or whatever techniques i talked about in class or whatever you know
-
-book, different artical,research paper
-
-friday till 12AM ist
-
-sunny.savita@ineuron.ai
-krish.naik@ineuron.ai
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5b10867c6ccd6ffd4bcdf1a945b33b808a9a81a92aaed11e0d443950943b3d1
+size 642
